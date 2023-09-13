@@ -53,3 +53,33 @@
 // }else {
 //     alert("Han jee Kahna Available Hay counter no" + myCounter + " say mil jaye ga")
 // }
+
+
+
+
+
+
+
+
+// const resturantWalay = ["biryani","dalchawal","korma","burger","tikka","gola kabab"]
+
+// const deal = ["cold drink", "raita", " slad", "sweet", "fries"]
+
+// for(let i=0; i < resturantWalay.length; i++){
+// // console.log(i, resturantWalay[i], "===. items")
+// for(let j=0; j < resturantWalay.length; j++ ){
+//     console.log( resturantWalay[i] + deal[j])   
+// }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
