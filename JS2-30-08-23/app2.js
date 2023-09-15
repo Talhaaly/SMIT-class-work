@@ -74,3 +74,30 @@
 // } else{
 //     alert("kxh b mt lana");
 // }
+
+
+
+// x========================x============================x 
+
+
+// const Value = 2 > 1;
+// if (Value) {
+//     alert("Value is true");
+    
+// }else {
+//     alert("value is false");
+// }
+
+
+// x========================x============================x 
+
+const value1 = 1 < 0;
+
+value1 ? console.log(`value is true`) : console.log(`value is false`);  // Es6 method.
+
+// x==========================x========================x 
+
+const biryani = 1 < 0;
+
+biryani ? console.log(`biryani lao`) : pulao ? console.log(`pulao lao`) : console.log(`daal ly ana`);
+ 
