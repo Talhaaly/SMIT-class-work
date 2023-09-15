@@ -57,3 +57,20 @@
 // }
 
 // console.log(lift(5,8,9))
+
+
+// xx==============xxxxxxxxxxxxxxxxxxxx==================== 
+
+
+if("biryani"){
+    alert("biryani ly ao");
+    if("chicken birani" && "Garam ho"){
+        alert("ly anaa mere pass")
+    }else{
+        alert("wapis ajana")
+    }
+}else if("pulao"){
+    alert("ly kar ana");
+} else{
+    alert("kxh b mt lana");
+}
