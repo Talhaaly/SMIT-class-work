@@ -172,19 +172,40 @@ var noStudent = student.slice(1, 3);
 
 
 
+// let name = 'bobo';
+
+// function calculate() {
+//     const name = 'jhon';
+//     const age = '25'
+// }
+
+// console.log(age);
+
+// calculate()
 
 
+// if (true) {
+// const name = "jhon"
+
+// }
+
+// console.log(`y name is ${name} and i am awesome`);
+
+// x=====================x========================x 
 
 
+// function calculate() {
+//         const name = 'jhon';
+//         const age = '25'
+//         becomeGlobal = 'golbal variable'
+//     }
 
+//     calculate()
+//     console.log(becomeGlobal)
 
+    // jb bhi koi variable var/let/const k bagair bnay ga tu wo auto global main bna dyga but it is not a good practice.
 
-
-
-
-
-
-
+// x-------------------------------x-----------------------------x 
 
 
 
