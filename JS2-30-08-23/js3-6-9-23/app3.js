@@ -92,27 +92,82 @@ var noStudent = student.slice(1, 3);
 
 // console.log(firstName, last_name, address)
 
+// ----------------------------x---------------------------x---------------------------------------------------------x 
+
+// ================================x==============17-09-23=================x======================================================x 
+
+
+
+
+// if(prompt("user ki age") <= 18){
+//     alert("user ki age thik hay")
+
+// }else {
+//     alert("user ki age ghalat hay")
+// }
+
+
+// condition ? "execution1" : "execution2"
+
+
+// prompt("user ki kia age hy ?") == 18 ? 
+//  alert("user ki age thik hy")
+//   : prompt("user ki age") > 18 ? 
+//   alert("user ki age sahe hay qk 18 say zyada hy") 
+//   : alert("user ki age nh thk hy ")
+
+
+
+// global scope and local scope 
+
+// 1- var global scope or function scope hy ... global hr jaga mil jaye ga or function k andr bnayengy tu srf function main milay ga...
+
+// 2- let or const block scope hy   hm jitny bhi {} istimal krngy { es ka khula or bnd hona } block kehlay ga...
+
+// let name2 = "talha"
+
+// console.log(name2);
+
+// {
+//     let name = "Ali"
+//     console.log(name)
+// }
+
+// bhar nh hoga 
+// console.log(name, "===>")
 
 
 
 
 
 
+// let name = "baba"
+// name = "peter"
+
+
+// function calculate() {
+//     console.log(name)
+// }
+
+// calculate()
 
 
 
 
 
+// let name = "bobo"
 
+// function calculate() {
+//     const name = "jhon"
+// }
 
+// calculate()
 
+// if(true) {
+//     const name = "jhon"
+// }
 
-
-
-
-
-
-
+// console.log(`my name is ${name} and i am awesome`)
 
 
 

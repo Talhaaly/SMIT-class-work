@@ -91,13 +91,12 @@
 
 // x========================x============================x 
 
-const value1 = 1 < 0;
+// const value1 = 1 < 0;
 
-value1 ? console.log(`value is true`) : console.log(`value is false`);  // Es6 method.
+// value1 ? console.log(`value is true`) : console.log(`value is false`);  // Es6 method.
 
-// x==========================x========================x 
+// // x==========================x========================x 
 
-const biryani = 1 < 0;
+// const biryani = 1 < 0;
 
-biryani ? console.log(`biryani lao`) : pulao ? console.log(`pulao lao`) : console.log(`daal ly ana`);
- 
+// biryani ? console.log(`biryani lao`) : pulao ? console.log(`pulao lao`) : console.log(`daal ly ana`);
