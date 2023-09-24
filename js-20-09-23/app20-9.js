@@ -49,23 +49,39 @@
 
 // callBack functions, higher order functions , functions as first class objet/citizens.
 
-function morning() {
-    console.log('good morning Bob');
-    return 'good morning Bob';
+// function morning() {
+//     console.log('good morning Bob');
+//     return 'good morning Bob';
     
-}
+// }
 
-function greet(name, cb) {
-    cb();
-    const myName = "jhon";
-    console.log(` ${name}, my name is ${myName}`);
+// function greet(name, cb) {
+//     cb();
+//     const myName = "jhon";
+//     console.log(` ${name}, my name is ${myName}`);
     
+// }
+
+
+// greet('bobo', morning);
+// greet('peter', morning);
+
+
+
+
+// ===========x======22-09-2023=========x================= 
+
+
+let name = prompt( "what is your name");
+let age = prompt ("How old are you ?");
+let gift = prompt("do you have gift ?");
+let invitationCard =prompt("do you have invitation Card ?");
+
+if(name == "asad" || "talha" || "ayaz" && age >= 18 && gift == "yes" && invitationCard == "yes") {
+    alert("your welcome");
+}else {
+    alert("you are not invited...");
 }
-
-
-greet('bobo', morning);
-greet('peter', morning);
-
 
 
 
