@@ -102,18 +102,23 @@ const students = [
 
 
 
-students.map(students => {
-    // New properties to be added
-    const addRole= {
-      role:"student"
-    };
+// students.map(students => {
+//     // New properties to be added
+//     const addRole= {
+//       role:"student"
+//     };
   
-    // Assign new properties and return
-    return Object.assign(students, addRole);
-  });
+//     // Assign new properties and return
+//     return Object.assign(students, addRole);
+//   });
 
 
+// or 
 
+const updatedStudents = students.map(function(student){
+    student.role ='student'
+    return {name: student.name}
+})
 
 
 
