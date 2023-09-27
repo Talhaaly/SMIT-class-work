@@ -122,7 +122,7 @@ const updatedStudents = students.map(function(student){
 
 
 
-
+// foreach new array return nh krta and map new array return krta hay
 
 
 
