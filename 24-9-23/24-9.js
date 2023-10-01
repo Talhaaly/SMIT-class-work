@@ -19,15 +19,16 @@
 
 // Array kay functions  forEach
 
-// const people = [
-//     {name: "sultan", age : 18, position : "developer"},
-//     {name: "ali", age : 29, position : "designer"},
-//     {name: "ahmed", age : 37, position : "artist"}
-// ]
+const people = [
+    {name: "sultan", age : 18, position : "developer"},
+    {name: "ali", age : 29, position : "designer"},
+    {name: "ahmed", age : 37, position : "artist"}
+]
 
-// console.log(people[0])
-// console.log(people[1])
-// console.log(people[2])
+console.log(people[0]);
+console.log(people[1]);
+console.log(people[2]);
+alert("fsafsaf");
 
 // for(let i =0; i < people.length; i++){
 //     console.log(people[i].name)
@@ -92,13 +93,13 @@
 
 
 
-const students = [
-    {name: "iqbal", id : 18, score : "80%", favoriteSubject: "mathematics"},
-    {name: "ahmed", id : 28, score : "86%", favoriteSubject: "physics"},
-    {name: "waqar", id : 38, score : "91%", favoriteSubject: "chemistry"},
-    {name: "sahfeeq", id : 48, score : "73%", favoriteSubject: "english"},
-    {name: "talha", id : 58, score : "95%", favoriteSubject: "pakStudies"}
-]
+// const students = [
+//     {name: "iqbal", id : 18, score : "80%", favoriteSubject: "mathematics"},
+//     {name: "ahmed", id : 28, score : "86%", favoriteSubject: "physics"},
+//     {name: "waqar", id : 38, score : "91%", favoriteSubject: "chemistry"},
+//     {name: "sahfeeq", id : 48, score : "73%", favoriteSubject: "english"},
+//     {name: "talha", id : 58, score : "95%", favoriteSubject: "pakStudies"}
+// ]
 
 
 
@@ -115,10 +116,10 @@ const students = [
 
 // or 
 
-const updatedStudents = students.map(function(student){
-    student.role ='student'
-    return {name: student.name}
-})
+// const updatedStudents = students.map(function(student){
+//     student.role ='student'
+//     return {name: student.name}
+// })
 
 
 

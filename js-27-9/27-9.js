@@ -59,12 +59,12 @@
 
 
 
-const phones = [
-    {name: 'motorola', price: 35000, model: "s20"},
-    {name: 'tecno', price: 49000, model: "s20"},
-    {name: 'infinix', price: 75000, model: "A20"},
-    {name: 'iphone', price: 250000, model: "p20"}
-]
+// const phones = [
+//     {name: 'motorola', price: 35000, model: "s20"},
+//     {name: 'tecno', price: 49000, model: "s20"},
+//     {name: 'infinix', price: 75000, model: "A20"},
+//     {name: 'iphone', price: 250000, model: "p20"}
+// ]
 
 // const display = phones.filter(function(mobile){
 //     if(mobile == "tecno") return true
@@ -77,8 +77,29 @@ const phones = [
 
 
 
+const highestScore = [
+
+    { name: "fahad", id: 10, Score: 76, favsub: "math" },
+    { name: "mohsin", id: 12, score: 70, favsub: "science" },
+    { name: "ali", id: 14, score: 80, favsub: "english" },
+    { name: "ahsan", id: 16, score: 90, favsub: "urdu" },
+    { name: "wajid", id: 18, score: 95, favsub: "social" }
+
+]
 
 
+const Score = highestScore.filter(function (highest) {
+    if (highest.score >= 80) {
+        return highest
+    }
+})
+
+
+const specificId = highestScore.find(function (ids) {
+    if (ids.id == "12") {
+        return true
+    }
+})
 
 
 
