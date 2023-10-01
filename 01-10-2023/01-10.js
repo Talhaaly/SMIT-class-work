@@ -97,18 +97,22 @@ const survey = [
 
 
 
-// chk sir github 
 
-// const finalSurvey = survey.reduce(function(prev , curr) {
+
+const finalSurvey = survey.reduce(function(prev , curr) {
 //   console.log(prev)
-//   if(prev.hasOwnProperty(curr.favsub)){
-//     prev[curr.favsub] = 1
-//     return prev
-//   }
+  if(prev.hasOwnProperty(curr.favsub)){
+    prev[curr.favsub] = prev[curr.favsub] + 1
+    return prev
+  } else {
+    // console.log(flase)
+    prev[curr.favsub] = 1
+    return prev
+  }
+}, {})
 
-//   return {}
-// }, {})
 
+console.log(finalSurvey);
 
 // console.log( survey.hasOwnProperty('english'))
 
