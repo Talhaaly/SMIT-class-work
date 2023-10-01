@@ -79,7 +79,7 @@
 
 const highestScore = [
 
-    { name: "fahad", id: 10, Score: 76, favsub: "math" },
+    { name: "fahad", id: 10, score: 76, favsub: "math" },
     { name: "mohsin", id: 12, score: 70, favsub: "science" },
     { name: "ali", id: 14, score: 80, favsub: "english" },
     { name: "ahsan", id: 16, score: 90, favsub: "urdu" },
