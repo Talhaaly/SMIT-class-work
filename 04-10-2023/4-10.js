@@ -40,6 +40,10 @@
 
 
 
+
+
+
+
 // Date 
 
 
@@ -55,8 +59,6 @@
 
 
 
-
-
 // const dob = new Date ('4/5/1999');
 
 // console.log(dob)
@@ -64,7 +66,19 @@
 
 
 
+// const myDate = new Date()
 
+// console.log(myDate.getDay() +1)
+// console.log(myDate.getMonth() +1)
+// console.log(myDate.getFullYear())
+
+
+
+// const myyDate = new Date("4/5/1999")
+
+// console.log(myyDate )
+// console.log(myyDate.getMonth() + 1)
+// console.log(myyDate.getFullYear())
 
 
 
