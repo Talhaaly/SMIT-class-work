@@ -83,12 +83,35 @@
 
 
 
+//  console.log(Array.from("Naheel"))
+
+
+// var firstName
+// var last_name
+
+// firstName = "Talha"
+// last_name = "Ali"
+
+// var address = "main street"
+// address = "first street"
+
+// console.log(firstName, last_name, address)
 
 
 
 
 
+// const resturantWaley = ["biryani", "korma", "white karahi", "daal chawal", "tikka", "behari boti"]
 
+// const deal = ["cold drink", "raita", "salad", "french fries", "sweet dish"]
+
+// for(i = 0; i < resturantWaley.length; i++) {
+//     // console.log(i, resturantWaley[i] ,"====item")
+//     for(j = 0; j < deal.length; j++) {
+//         // console.log("Ek " + resturantWaley[i] + " kay saath ek " + deal[j] + " free", "==>> my deal")
+//         console.log(`Ek ${resturantWaley[i]} kay saath ek ${deal[j]} free`)
+//     }
+// }
 
 
 
