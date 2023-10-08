@@ -83,8 +83,47 @@
 
 // var strNum = "23";
 
-
 // console.log(Number(strNum));
+
+
+
+
+
+
+
+
+
+
+
+
+// function addNum(){
+//     var addSum;
+//     addSum = 4 + 4;
+// return addSum
+// }
+
+
+// console.log(addNum());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
