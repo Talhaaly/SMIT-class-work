@@ -103,3 +103,44 @@
 // console.log(car.drive)
 // console.log(car.stop)
 // console.log(color[1])
+
+
+// x=======================================x=======================================================x 
+
+
+// Quiz 
+
+
+
+const API_URL = 'https://opentdb.com/api.php?amount=10';
+
+async function fetchQuiz() {
+  const response = await fetch(API_URL);
+  const data = await response.json();
+  return data.results[0];
+}
+
+function loadQuestion() {
+  fetchQuiz().then(question => {
+    const questionDiv = document.getElementById('question');
+    questionDiv.innerHTML = `<p>${question.question}</p>`;
+    const answersDiv = document.getElementById('answers');
+    const answers = [...question.incorrect_answers, question.correct_answer];
+    answers.sort(() => Math.random() - 0.5);
+    answers.forEach(answer => {
+      const button = document.createElement('button');
+      button.innerHTML = answer;
+      button.onclick = () => checkAnswer(answer, question.correct_answer);
+      answersDiv.appendChild(button);
+    });
+  });
+}
+
+function checkAnswer(userAnswer, correctAnswer) {
+  if (userAnswer === correctAnswer) {
+    alert('The Answer' + correctAnswer + 'is Correct!');
+  } else {
+    alert('Incorrect! The correct answer is: ' + correctAnswer);
+  }
+  loadQuestion();
+}
